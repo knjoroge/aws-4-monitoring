@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-eest-1"
+  region = "us-east-1"
 }
 
 data "terraform_remote_state" "network" {
